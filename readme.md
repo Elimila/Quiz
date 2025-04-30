@@ -1,22 +1,21 @@
-![logotipo de The Bridge](https://user-images.githubusercontent.com/27650532/77754601-e8365180-702b-11ea-8bed-5bc14a43f869.png "logotipo de The Bridge")
+![logotipo de The Bridge](https://user-images.githubusercontent.com/27650532/77754601-e8365180-702b-11ea-8bed-5bc14a43f869.png 'logotipo de The Bridge')
 
 # [Bootcamp Web Developer Full Stack](https://www.thebridge.tech/bootcamps/bootcamp-fullstack-developer/)
 
 ### JS, ES6, Node.js, Frontend, Backend, Express, React, MERN, testing, DevOps
 
-
 ## EJERCICIO: Quiz :octocat: :loudspeaker: :bangbang:
 
 ![Logo](./assets/tree.jpg)
 
-
 **Objetivo**
+
 - El Quiz constará de 10 preguntas. Cada pregunta tendrá 4 opciones y sólo una de ellas será la correcta.
 - Podrán ser preguntas nuestras y preguntas que vengan de https://opentdb.com/
-- La aplicación tendrá que ser una **SPA** *(single-page application)*. Sólo una pregunta cada vez en pantalla.
-
+- La aplicación tendrá que ser una **SPA** _(single-page application)_. Sólo una pregunta cada vez en pantalla.
 
 **Requisitos para este proyecto**
+
 - Manipulación dinámica del **DOM**
 - Crear una página **SPA** para las preguntas
 - Manejo de **ES6**
@@ -27,52 +26,45 @@
 - Código limpio, **buenas prácticas**
 
 **Opcional**
+
 - Otras APIs, mix de preguntas de distinas fuentes...
 - En general, cualquier extra será bien recibido para que investiguéis por vuestra cuenta, siempre y cuando tenga sentido
 
 ---
+
 ---
 
 ## FASES
+
 ---
 
 ### FASE 1: Diseño del front
+
 - Diseño responsive, mobile first, semántica HTML5
 
 ### FASE 2: Lógica de JavaScript
+
 - Ejemplo de enunciado para adaptar modelo de datos
 - [proyectos-quiz-resurrected](https://github.com/TheBridge-FullStackDeveloper/proyectos-quiz-resurrected)
 
 - Conseguir con 10 preguntas nuestras, guardadas en un array de objetos, se pueda jugar a nuestro Quiz. `[{..},{..},{..}...{..}]`
 
 ### FASE 3: Asincronía
+
 - Javascript: Manejo de asincronía. Leer 10 preguntas random de la API de prenguntas para generar el Quiz
 
 ### FASE 4 (avanzado) - APIs HTML5
+
 - Almacenar la puntuación de cada partida en un array de objetos `[{..},{..},{..}...{..}]` en Local Storage. Guardar puntuación y fecha en cada objeto del array
 
 - Mostrar en la Home con una gráfica los resultados de las últimas partidas jugadas (leer puntuaciones de LocalStorage). Representar Fecha(eje X) vs Puntuación(eje Y)
-
-### FASE 5 - Migración a Firebase
-
-#### Firebase Firestore
-- Almacena la puntuación de cada partida en Firebase Firestore. Guardar puntuación y fecha en cada objeto 
-
-Mostrar en la Home con una gráfica los resultados de las últimas partidas jugadas (leer puntuaciones de Firestore). Representar Fecha(eje X) vs Puntuación(eje Y)
-
-#### Firebase Auth
-- Login. 2 vías: Con Google y email+password
-- Los usuarios logados pueden jugar partidas y almacenar puntuación
-- Los usuarios logados pueden jugar partidas pero no almacenan puntuación
-- Cada usuario puede ver su gráfica de estadísticas de partidas jugadas
-- Se podrá ver el ranking de puntuaciones de los usuarios que han jugado (estilo máquina de arcade)
 
 ![Logo](./assets/ranking.jpeg)
 
 ### Páginas
 
 - `home.html`. Página de bienvenida + gráfica de últimos resultados
-- `question.html` SPA. Página para renderizar las 10 distintas preguntas 
+- `question.html` SPA. Página para renderizar las 10 distintas preguntas
 - `results.html` Página para mostrar resultado del quiz
 
 ### Vista móvil
@@ -80,6 +72,7 @@ Mostrar en la Home con una gráfica los resultados de las últimas partidas juga
 ![Logo](./assets/mobile.png)
 
 ### Vista pc/tablet
+
 ![Logo](./assets/home.png)
 ![Logo](./assets/quiz.png)
 ![Logo](./assets/results.png)
@@ -87,11 +80,3 @@ Mostrar en la Home con una gráfica los resultados de las últimas partidas juga
 ### A por ello!!!
 
 ![Logo](./assets/quiz-time.jpg)
-
-
-
-
-
-
-
-
