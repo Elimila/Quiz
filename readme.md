@@ -80,3 +80,17 @@
 ### A por ello!!!
 
 ![Logo](./assets/quiz-time.jpg)
+
+
+Trivia API
+URL: https://the-trivia-api.com/
+QuizAPI
+URL: https://quizapi.io/
+JService API
+URL: http://jservice.io/
+TriviaDB
+URL: https://triviadb.com/
+Fun Trivia API
+URL: https://www.funtrivia.com/api/
+Quizlet API
+URL: https://quizlet.com/api/2.0/docs
